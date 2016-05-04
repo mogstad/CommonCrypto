@@ -1,6 +1,6 @@
 {
   "name": "libCommonCrypto",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "summary": "CommonCrypto module maps for swift",
   "homepage": "https://github.com/mogstad/CommonCrypto",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/mogstad/CommonCrypto.git",
-    "tag": "v0.1.0"
+    "tag": "v0.1.1"
   },
   "module_name": "CommonCrypto",
   "platforms": {
