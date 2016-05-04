@@ -1,8 +1,8 @@
 framework module CommonCrypto {
   umbrella header "CommonCrypto.h"
 
-  module Crypto [system] {
-    umbrella header "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk/usr/include/CommonCrypto/CommonCrypto.h"
+  module CommonDigest [system] {
+    header "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk/usr/include/CommonCrypto/CommonDigest.h"
     export *
   }
 
