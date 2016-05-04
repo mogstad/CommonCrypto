@@ -1,0 +1,11 @@
+framework module CommonCrypto {
+  umbrella header "CommonCrypto.h"
+
+  module Crypto [system] {
+    umbrella header "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/CommonCrypto/CommonCrypto.h"
+    export *
+  }
+
+  export *
+  module * { export * }
+}
