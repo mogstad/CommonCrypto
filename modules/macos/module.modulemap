@@ -1,11 +1,5 @@
-framework module CommonCrypto {
-  umbrella header "CommonCrypto.h"
-
-  module CommonDigest [system] {
-    header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/CommonCrypto/CommonDigest.h"
+framework module CommonCrypto [system] {
+    umbrella header "CommonCrypto.h"
+	header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/CommonCrypto/CommonCrypto.h"
     export *
-  }
-
-  export *
-  module * { export * }
 }
