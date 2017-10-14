@@ -1,15 +1,16 @@
 {
-  "name": "libCommonCrypto",
-  "version": "0.1.1",
+  "name": "ios-commoncrypto",
+  "version": "0.1.2",
   "license": "MIT",
-  "summary": "CommonCrypto module maps for swift",
-  "homepage": "https://github.com/mogstad/CommonCrypto",
+  "summary": "CommonCrypto module maps for Swift",
+  "homepage": "https://github.com/cjwirth/ios-commoncrypto",
   "authors": {
-    "Bjarne Mogstad": "me@mogstad.co"
+    "Bjarne Mogstad": "me@mogstad.co",
+    "Caesar Wirth": "caesar@cjwirth.com"
   },
   "source": {
-    "git": "https://github.com/mogstad/CommonCrypto.git",
-    "tag": "v0.1.1"
+    "git": "https://github.com/cjwirth/ios-commoncrypto.git",
+    "tag": "0.1.2"
   },
   "module_name": "CommonCrypto",
   "platforms": {
